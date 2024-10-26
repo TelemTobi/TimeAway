@@ -11,19 +11,42 @@ struct ContentView: View {
     var body: some View {
         TabView {
             Color.clear
+                .background(Color(.taBackground))
                 .tabItem {
-                    Label("Home", systemImage: "house")
+                    Label("Explore", systemImage: "globe.europe.africa")
                 }
             
             Color.clear
+                .background(Color(.taBackground))
                 .tabItem {
-                    Label("Plan", systemImage: "globe.europe.africa")
+                    Label("My Schedule", systemImage: "calendar")
                 }
             
-            Color.clear
-                .tabItem {
-                    Label("Profile", systemImage: "person")
+            ZStack {
+                Color.clear
+                
+                VStack {
+                    Text("Primary Text Color")
+                        .foregroundStyle(.taPrimaryText)
+                    
+                    Text("Secondary Text Color")
+                        .foregroundStyle(.taSecondayText)
+                    
+                    Button(action: {}) {
+                        Text("Button Colors")
+                            .fontWeight(.medium)
+                            .foregroundStyle(.taButtonForeground)
+                            .frame(maxWidth: .infinity, minHeight: 60)
+                    }
+                    .background(.taButtonBackground)
+                    .clipShape(.rect(cornerRadius: 8))
                 }
+                .padding(.horizontal)
+            }
+            .background(Color(.taBackground))
+            .tabItem {
+                Label("Profile", systemImage: "person")
+            }
         }
     }
 }
