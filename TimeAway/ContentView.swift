@@ -19,7 +19,7 @@ struct ContentView: View {
             Color.clear
                 .background(Color(.taBackground))
                 .tabItem {
-                    Label("My Schedule", systemImage: "calendar")
+                    Label("Schedule", systemImage: "calendar")
                 }
             
             ZStack {

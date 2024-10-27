@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7DA1B7D02CCE0A980045125F /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 7DA1B7CF2CCE0A980045125F /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7D3D34B32CCB616B00706A5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA1B7D02CCE0A980045125F /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +95,7 @@
 			);
 			name = TimeAway;
 			packageProductDependencies = (
+				7DA1B7CF2CCE0A980045125F /* ComposableArchitecture */,
 			);
 			productName = TimeAway;
 			productReference = 7D3D34A12CCB616A00706A5F /* TimeAway.app */;
@@ -146,6 +152,9 @@
 			);
 			mainGroup = 7D3D34982CCB616900706A5F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7DA1B7CE2CCE0A980045125F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7D3D34A22CCB616A00706A5F /* Products */;
 			projectDirPath = "";
@@ -347,7 +356,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
@@ -386,7 +395,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
@@ -469,6 +478,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7DA1B7CE2CCE0A980045125F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.15.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DA1B7CF2CCE0A980045125F /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DA1B7CE2CCE0A980045125F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D3D34992CCB616900706A5F /* Project object */;
 }
