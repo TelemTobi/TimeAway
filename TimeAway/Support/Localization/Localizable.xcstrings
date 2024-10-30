@@ -1,0 +1,66 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Button Colors" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צבעי כפתור"
+          }
+        }
+      }
+    },
+    "Explore" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המלצות"
+          }
+        }
+      }
+    },
+    "My Schedule" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לוח זמנים"
+          }
+        }
+      }
+    },
+    "Primary Text Color" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צבע טקסט ראשי"
+          }
+        }
+      }
+    },
+    "Profile" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פרופיל"
+          }
+        }
+      }
+    },
+    "Secondary Text Color" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צבע טקסט משני"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
